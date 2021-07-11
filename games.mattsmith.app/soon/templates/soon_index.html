@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+            <title>Games</title>
+        </head>
+<body>
+<table>
+    <thead>
+    <th>
+        Game Name
+    </th>
+    <th>
+        Release Date
+    </th>
+    <th>
+        Already Bought
+    </th>
+    </thead>
+    {% for game in game_list %}
+
+    <tr>
+        <td>
+            {{ game.game_name }}
+        </td>
+        <td>
+            {{ game.release_date }}
+        </td>
+        <td>
+            {{ game.already_bought }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

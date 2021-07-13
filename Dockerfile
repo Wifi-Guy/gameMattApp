@@ -3,8 +3,6 @@ USER root
 COPY requirements.txt /tmp
 WORKDIR /apps/games.mattsmith.app
 RUN pip install -r /tmp/requirements.txt
-ENV DJANGO_SUPERUSER_PASSWORD=root
-ENV DJANGO_SUPERUSER_USERNAME=root
 COPY games.mattsmith.app /apps/games.mattsmith.app
 RUN chmod -R 777 /apps/games.mattsmith.app
 WORKDIR /apps/games.mattsmith.app

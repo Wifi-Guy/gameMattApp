@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9$_o^j9(9o7bjld$6vaka&)*6_rsb^o-dg7q1jpy6r%#3r5dg7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.6.1', 'games.mattsmith.app', '86.22.225.123']
+ALLOWED_HOSTS = ['192.168.6.1', 'games.mattsmith.app', '86.22.225.123', '127.0.0.1']
 
 
 # Application definition

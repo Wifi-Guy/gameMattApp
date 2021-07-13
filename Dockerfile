@@ -8,8 +8,8 @@ RUN chmod -R 777 /apps/games.mattsmith.app
 WORKDIR /apps/games.mattsmith.app
 VOLUME /etc/letsencrypt/live/games.mattsmith.app/
 
-COPY run.sh /apps/games.mattsmith.app
-COPY certs.sh /apps/games.mattsmith.app
+COPY infra/run.sh /apps/games.mattsmith.app
+COPY infra/certs.sh /apps/games.mattsmith.app
 COPY nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 8000 8443

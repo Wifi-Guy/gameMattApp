@@ -1,6 +1,6 @@
 ## Running locally
 
-+ DB already created (but empty)
++ DB already created
 
 To Start:
 
